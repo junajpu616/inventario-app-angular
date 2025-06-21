@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ProductoLista } from "./producto-lista/producto-lista";
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
-  imports: [ProductoLista]
+  imports: [RouterModule]
 })
 export class App {
   protected title = 'inventario-app';
